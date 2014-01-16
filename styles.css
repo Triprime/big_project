@@ -1,1 +1,15 @@
 /*styles go here*/
+
+.code {
+  background-color:#EEEEEE;
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  margin-bottom: 2px;
+}
