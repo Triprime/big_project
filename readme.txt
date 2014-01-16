@@ -1,0 +1,1 @@
+This project will contain info regarding the use of Git
