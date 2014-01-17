@@ -3,6 +3,7 @@
 <html lang="en">
 
   <head>This is my cheesy Git Info page
+    <meta charset="utf-8">
     <title>Git Info</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
@@ -22,7 +23,15 @@
     <p>Changes to tracked files:</p>
     <p class="code">git diff</p>
     <p>Add all current changes to the next commit:</p>
-    <p class="code">git add.</p>
+    <p class="code">git add .</p>
+    <p>Add some changes in a file to the next commit:</p>
+    <p class="code">git add -p file_name</p>
+    <p>Commit all local changes in tracked files:</p>
+    <p class="code">git commit -a</p>
+    <p>Commit previously staged changes:</p>
+    <p class="code">git commit</p>
+    <p>Change the last commit:</p>
+    <p class="code">git commit --amend</p>
     <br>
   </body>
   
